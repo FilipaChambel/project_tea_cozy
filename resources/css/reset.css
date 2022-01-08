@@ -1,0 +1,191 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+/* Header and Nav */
+
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+}
+
+header img {
+    height: 50px;
+    width: auto;
+        
+}
+
+nav {
+    align-self: flex-end;
+    padding: 10px;
+}
+
+header a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 20px;
+        
+}
+
+/* Mission Statement */
+
+.mission-parent {
+    display: flex;
+    position: relative;
+    top: 81px;
+    justify-content: center;
+}
+
+.mission-image {
+    width: 1200px;
+    height: 700px;
+    }
+
+.mission-message {
+    z-index: 2;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    width: 1200px;
+    background-color: black;
+}
+
+/* Featured Teas */
+
+.features-parent {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.features-title {
+    width: 1000px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.featured-images img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.featured-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+.featured-images p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Locations */
+
+.locations-parent {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 100px;
+    position: relative;
+    top: 200px;
+    background-image: url('../images/img-locations-background.webp');
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    padding:40px;
+}
+
+.location-boxes {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    justify-content: center;
+}
+
+.locations-parent h2 {
+    position: absolute;
+    top: 70px;
+    left: 470px;
+}
+
+div .location1 {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+div .location2 {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+div .location3 {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Footer */
+
+footer {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+div h2, h5 {
+    text-align: center;
+}
+
+.copyright {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 16px;
+}
